@@ -14,9 +14,11 @@ usethis::edit_r_environ()
 Sys.getenv("GITHUB_PAT")
 
 # Criando o repositorio no git
-usethis::use_github()
+usethis::use_github() # para nao ficar pedindo senha
 
 # Criando um readme
 usethis::use_readme_rmd()
 
-# modificacao
+# Modificando para nao ficar pedindo senha
+# Botar no terminal: git remote set-url origin git@github.com:denisevitoriano/Case.git
+
